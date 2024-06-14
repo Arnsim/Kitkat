@@ -1,0 +1,17 @@
+while true do
+local args = { [1] = true, [2] = 0 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = true, [2] = 1 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = true, [2] = 2 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = true, [2] = 3 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = true, [2] = 4 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = true, [2] = 5 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):WaitForChild("Hit"):FireServer(unpack(args))
+local args = { [1] = 0 }
+game:GetService("ReplicatedStorage"):WaitForChild("Minigame"):FireServer(unpack(args))
+wait(0.00001)
+end
